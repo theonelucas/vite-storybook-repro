@@ -1,0 +1,57 @@
+{
+  "name": "vite-storybook-repro",
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "Caipira",
+    "email": "contact@caipira.io"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest",
+    "typecheck": "vue-tsc --noEmit",
+    "storybook": "start-storybook -p 3001",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "@tailwindcss/forms": "^0.3.4",
+    "axios": "^0.24.0",
+    "chart.js": "^3.4.0",
+    "date-fns": "^2.25.0",
+    "js-cookie": "^2.2.1",
+    "tailwindcss": "^2.2.19",
+    "vee-validate": "^4.5.4",
+    "vue": "^3.2.16",
+    "vue-chart-3": "^0.5.11",
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-property-decorator": "^10.0.0-rc.3",
+    "vue-qrcode-reader": "3.1.0-vue3-compatibility.2",
+    "vue-router": "4",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "6.4.0-beta.19",
+    "@storybook/addon-essentials": "6.4.0-beta.19",
+    "@storybook/addon-links": "6.4.0-beta.19",
+    "@storybook/vue3": "6.4.0-beta.19",
+    "@types/js-cookie": "^2.2.7",
+    "@vitejs/plugin-vue": "1.8.0",
+    "@vue/test-utils": "^1.2.2",
+    "autoprefixer": "^10.4.0",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.0.6",
+    "postcss": "^8.3.11",
+    "storybook-builder-vite": "^0.1.6",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vite-tsconfig-paths": "^3.3.17",
+    "vue-jest": "^4.0.0-0",
+    "vue-loader": "^16.8.3",
+    "vue-tsc": "^0.3.0"
+  }
+}

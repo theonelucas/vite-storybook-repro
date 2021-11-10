@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .label:after {
+    content: ': ';
+  }
+
+  .scrollbar-1::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 2px;
+  }
+
+  .scrollbar-1::-webkit-scrollbar-thumb {
+    background: #c5c5c5;
+    border-radius: 2px;
+  }
+}
+
+.favicon {
+  width: 17px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.ext {
+  width: 20px;
+  height: 20px;
+  content: url('//static.%VITE_APP_DOMAIN%/images/fs/unknown.svg');
+}
+
+.ext.bmp  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/bmp.svg');  }
+.ext.ics  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/ics.svg');  }
+.ext.jpg  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/jpg.svg');  }
+.ext.doc  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/doc.svg');  }
+.ext.docx { content: url('//static.%VITE_APP_DOMAIN%/images/fs/docx.svg'); }
+.ext.gif  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/gif.svg');  }
+.ext.mp3  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/mp3.svg');  }
+.ext.mp4  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/mp4.svg');  }
+.ext.pdf  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/pdf.svg');  }
+.ext.png  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/png.svg');  }
+.ext.rar  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/rar.svg');  }
+.ext.tar  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/tar.svg');  }
+.ext.txt  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/txt.svg');  }
+.ext.xls  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/xls.svg');  }
+.ext.xlsx { content: url('//static.%VITE_APP_DOMAIN%/images/fs/xlsx.svg'); }
+.ext.xml  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/xml.svg');  }
+.ext.yaml { content: url('//static.%VITE_APP_DOMAIN%/images/fs/yaml.svg'); }
+.ext.zip  { content: url('//static.%VITE_APP_DOMAIN%/images/fs/zip.svg');  }
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+  url(@/assets/fonts/Inter-Regular.ttf) format("truetype");
+}
+
+html, body {
+  font-family: "Inter";
+  position: relative;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow: auto;
+}

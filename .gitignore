@@ -1,0 +1,22 @@
+# Cache
+.idea
+.phpunit.result.cache
+.nuxt
+dist
+yarn-debug.log*
+yarn-error.log*
+.nuxt-storybook
+storybook-static
+
+# Packages
+vendor
+node_modules
+
+# Secrets
+*.csr
+*.crt
+*.env
+*.ext
+*.key
+*.pem
+*.srl
